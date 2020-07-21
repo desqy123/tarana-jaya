@@ -77,7 +77,9 @@
           </div>
           <div>
             <button
+              type="button"
               class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow"
+              @click="onContactSubmit"
             >
               Submit
             </button>
@@ -85,5 +87,26 @@
         </form>
       </div>
     </div>
+    <Modal :show.sync="showModal" />
   </section>
 </template>
+<script>
+import Modal from '@/components/Modal.vue'
+export default {
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      showModal: false,
+    }
+  },
+  methods: {
+    onContactSubmit() {
+      // eslint-disable-next-line no-console
+      console.log('asdasd')
+      this.showModal = true
+    },
+  },
+}
+</script>

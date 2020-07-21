@@ -6,7 +6,10 @@
         :title="productDetail.title"
         :description="productDetail.description"
       />
-      <ProductContent v-if="productDetail.show_content" />
+      <ProductContent
+        v-if="productDetail.show_content"
+        :product-content-list="productDetail.product_content"
+      />
       <ProductDetailDownload v-if="productDetail.show_detail" />
       <Product :items="productDetail.items" />
       <Portfolio v-if="productDetail.portfolios.length > 0" />

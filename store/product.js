@@ -195,21 +195,21 @@ export const state = () => ({
         {
           product_content_img:
             '/img/page/product-services/pjuts/jitsun-e-type.png',
-          product_content_tittle: 'JITSUN E-TYPE',
+          product_content_title: 'JITSUN E-TYPE',
           product_content_description:
             'E series all in one solar street light design become to the revolutionary smart solar light. The whole lamp adopts humanized design, combines variety green energy (solar panel, LED light source, lithium batteries) as a kit.',
         },
         {
           product_content_img:
             '/img/page/product-services/pjuts/jitsun-m-type.png',
-          product_content_tittle: 'JITSUN M-TYPE',
+          product_content_title: 'JITSUN M-TYPE',
           product_content_description:
             'The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W. Real time monitor the weather and battery, more reasonable to work.',
         },
         {
           product_content_img:
             '/img/page/product-services/pjuts/jitsun-s-type.png',
-          product_content_tittle: 'JITSUN S-TYPE',
+          product_content_title: 'JITSUN S-TYPE',
           product_content_description:
             'SMART INTEGRATED DESIGN The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W.',
         },
@@ -330,21 +330,21 @@ export const state = () => ({
         {
           product_content_img:
             '/img/page/product-services/multimedia/internet.jpg',
-          product_content_tittle: 'SIMDIS',
+          product_content_title: 'SIMDIS',
           product_content_description:
             'The "SIMDES" application is a desktop-based computer application program that can be used by district and district offices to record population data from information on family cards, citizen deaths, births and cover letters.',
         },
         {
           product_content_img:
             '/img/page/product-services/multimedia/internet.jpg',
-          product_content_tittle: 'SIMDIK',
+          product_content_title: 'SIMDIK',
           product_content_description:
             'SIMDIK or so-called MANAGEMENT AND EDUCATION INFORMATION SYSTEM is an ICT-based school data system where all school data bases can be stored securely and can be connected through a server. Schools that can be covered with SIMDIK are kindergarten, elementary, junior high, high school and equivalent.',
         },
         {
           product_content_img:
             '/img/page/product-services/multimedia/internet.jpg',
-          product_content_tittle: 'PPOB',
+          product_content_title: 'PPOB',
           product_content_description:
             'PPOB is an online payment system that utilizes banking facilities. In this case, the payment can vary, starting from PLN, BPJS, PDAM, telephone, credit, internet, data packages, insurance, credit cards, multi finance, to game vouchers.',
         },

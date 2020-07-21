@@ -1,16 +1,27 @@
 <template>
   <section class="px-4">
     <div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div
+        v-for="(content, key) in productContentList"
+        :key="key"
+        class="flex flex-wrap items-center -mx-8"
+        :class="{
+          'flex-row': isOdd(key),
+          'flex-row-reverse': !isOdd(key),
+        }"
+      >
         <div class="md:w-1/2 px-8 mb-8">
           <img
+            v-if="content.product_content_img"
             class="w-4/5 mx-auto"
-            src="/img/page/product-services/pjuts/jitsun-e-type.png"
+            :src="content.product_content_img"
             alt=""
           />
         </div>
         <div class="md:w-1/2 px-8 mb-8">
-          <span class="text-4xl font-bold">JITSUN E-TYPE</span>
+          <span class="text-4xl font-bold">{{
+            content.product_content_title
+          }}</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
             E series all in one solar street light design become to the
             revolutionary smart solar light. The whole lamp adopts humanized
@@ -28,7 +39,7 @@
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <!-- <div class="flex flex-wrap items-center -mx-8">
         <div class="md:w-1/2 px-8 mb-8 md:order-1">
           <img
             class="w-4/5 mx-auto"
@@ -82,7 +93,22 @@
             >
           </button>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
+<script>
+export default {
+  props: {
+    productContentList: {
+      type: Array,
+      required: true,
+    },
+  },
+  methods: {
+    isOdd(key) {
+      return key % 2 === 0
+    },
+  },
+}
+</script>
