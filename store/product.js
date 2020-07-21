@@ -153,6 +153,11 @@ export const state = () => ({
       imgUrl: '/img/page/product-services/multimedia/projector.jpg',
     },
     {
+      title: 'Telkomsel & Indosat Tower',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/tsel-indosat-tower2.jpeg',
+    },
+    {
       title: 'Internet for Villages',
       category: 'Multimedia',
       imgUrl: '/img/page/product-services/multimedia/internet.jpg',
@@ -161,11 +166,6 @@ export const state = () => ({
       title: 'Wifi',
       category: 'Multimedia',
       imgUrl: '/img/page/product-services/multimedia/internet.jpg',
-    },
-    {
-      title: 'Telkomsel & Indosat Tower',
-      category: 'Multimedia',
-      imgUrl: '/img/page/product-services/multimedia/tsel-indosat-tower1.jpeg',
     },
     {
       title: 'SIMDES',
@@ -198,6 +198,9 @@ export const state = () => ({
           product_content_title: 'JITSUN E-TYPE',
           product_content_description:
             'E series all in one solar street light design become to the revolutionary smart solar light. The whole lamp adopts humanized design, combines variety green energy (solar panel, LED light source, lithium batteries) as a kit.',
+          product_content_link:
+            '/img/page/product-services/pjuts/pdf/JIT SUN_E Type(Ver.1)-converted.pdf',
+          show_button_link: true,
         },
         {
           product_content_img:
@@ -205,6 +208,9 @@ export const state = () => ({
           product_content_title: 'JITSUN M-TYPE',
           product_content_description:
             'The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W. Real time monitor the weather and battery, more reasonable to work.',
+          product_content_link:
+            '/img/page/product-services/pjuts/pdf/JIT SUN_M Type(Ver.1)-converted.pdf',
+          show_button_link: true,
         },
         {
           product_content_img:
@@ -212,6 +218,9 @@ export const state = () => ({
           product_content_title: 'JITSUN S-TYPE',
           product_content_description:
             'SMART INTEGRATED DESIGN The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W.',
+          product_content_link:
+            '/img/page/product-services/pjuts/pdf/JIT SUN_S Type(Ver.1)-converted.pdf',
+          show_button_link: true,
         },
       ],
       portfolios: [
@@ -259,34 +268,30 @@ export const state = () => ({
       product_content: [],
       portfolios: [
         {
-          title: 'Portfolio 1',
+          title: 'Medis 1',
           portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-1.jpg',
+            '/img/page/product-services/pjuts/medic/disinfektan.jpeg',
         },
         {
-          title: 'Portfolio 2',
-          portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-2.jpg',
+          title: 'Medis 2',
+          portfolio_img: '/img/page/product-services/pjuts/medic/masker.jpeg',
         },
         {
-          title: 'Portfolio 3',
+          title: 'Medis 3',
           portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-3.jpg',
+            '/img/page/product-services/pjuts/medic/thermogun.jpeg',
         },
         {
-          title: 'Portfolio 4',
-          portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-4.jpg',
+          title: 'Medis 4',
+          portfolio_img: '/img/page/product-services/pjuts/medic/medis-4.jpeg',
         },
         {
-          title: 'Portfolio 5',
-          portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-5.jpg',
+          title: 'Medis 5',
+          portfolio_img: '/img/page/product-services/pjuts/medic/medis-5.mp4',
         },
         {
-          title: 'Portfolio 6',
-          portfolio_img:
-            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-6.jpg',
+          title: 'Medis 6',
+          portfolio_img: '/img/page/product-services/pjuts/medic/medis-6.mp4',
         },
       ],
       description:
@@ -324,7 +329,7 @@ export const state = () => ({
         '/img/header/product-services/multimedia/header-multimedia.jpg',
       title: 'Multimedia Tools',
       name: 'Multimedia',
-      show_content: false,
+      show_content: true,
       show_detail: false,
       product_content: [
         {
@@ -333,6 +338,8 @@ export const state = () => ({
           product_content_title: 'SIMDIS',
           product_content_description:
             'The "SIMDES" application is a desktop-based computer application program that can be used by district and district offices to record population data from information on family cards, citizen deaths, births and cover letters.',
+          product_content_link: '',
+          show_button_link: false,
         },
         {
           product_content_img:
@@ -340,6 +347,8 @@ export const state = () => ({
           product_content_title: 'SIMDIK',
           product_content_description:
             'SIMDIK or so-called MANAGEMENT AND EDUCATION INFORMATION SYSTEM is an ICT-based school data system where all school data bases can be stored securely and can be connected through a server. Schools that can be covered with SIMDIK are kindergarten, elementary, junior high, high school and equivalent.',
+          product_content_link: '',
+          show_button_link: false,
         },
         {
           product_content_img:
@@ -347,6 +356,8 @@ export const state = () => ({
           product_content_title: 'PPOB',
           product_content_description:
             'PPOB is an online payment system that utilizes banking facilities. In this case, the payment can vary, starting from PLN, BPJS, PDAM, telephone, credit, internet, data packages, insurance, credit cards, multi finance, to game vouchers.',
+          product_content_link: '',
+          show_button_link: false,
         },
       ],
       portfolios: [],

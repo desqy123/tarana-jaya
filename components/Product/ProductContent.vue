@@ -23,20 +23,16 @@
             content.product_content_title
           }}</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            E series all in one solar street light design become to the
-            revolutionary smart solar light. The whole lamp adopts humanized
-            design, combines variety green energy (solar panel, LED light
-            source, lithium batteries) as a kit.
+            {{ content.product_content_description }}
           </p>
-          <button
+          <nuxt-link
+            v-if="content.show_button_link"
+            :to="content.product_content_link"
+            download
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a
-              href="/img/page/product-services/pjuts/pdf/JIT SUN_E Type(Ver.1)-converted.pdf"
-              download
-              >Download PDF</a
-            >
-          </button>
+            Download PDF
+          </nuxt-link>
         </div>
       </div>
       <!-- <div class="flex flex-wrap items-center -mx-8">

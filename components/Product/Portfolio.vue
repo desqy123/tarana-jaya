@@ -4,16 +4,16 @@
     <p class="max-w-2xl mb-8 mx-auto text-center text-gray-800 leading-relaxed">
       We provide the best for you with all my heart.
     </p>
-    <div class="flex flex-wrap -mx-4 -mb-8">
+    <div
+      v-for="(portfolio, key) in portfolios"
+      :key="key"
+      class="flex flex-wrap -mx-4 -mb-8"
+    >
       <div class="md:w-1/3 px-4 mb-8">
-        <img
-          class="rounded shadow-md"
-          src="/img/page/product-services/pjuts/portfolio/portfolio-pjuts-1.jpg"
-          alt=""
-        />
+        <img class="rounded shadow-md" :src="portfolio.portfolio_img" alt="" />
       </div>
 
-      <div class="md:w-1/3 px-4 mb-8">
+      <!-- <div class="md:w-1/3 px-4 mb-8">
         <img
           class="rounded shadow-md"
           src="/img/page/product-services/pjuts/portfolio/portfolio-pjuts-2.jpg"
@@ -51,7 +51,17 @@
           src="/img/page/product-services/pjuts/portfolio/portfolio-pjuts-6.jpg"
           alt=""
         />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
+<script>
+export default {
+  props: {
+    portfolios: {
+      type: Array,
+      required: true,
+    },
+  },
+}
+</script>
