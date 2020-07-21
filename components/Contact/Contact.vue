@@ -1,10 +1,10 @@
 <template>
   <section class="py-12 px-4">
-    <h2 class="text-4xl mb-12 text-center font-bold">Kontak Kami</h2>
+    <h2 class="text-4xl mb-12 text-center font-bold">Our Contact</h2>
     <div class="flex flex-wrap -mx-6">
       <div class="w-full lg:w-1/2 px-6 mb-8 lg:mb-0">
         <h3 class="text-2xl mb-10 font-heading">
-          Kami selalu memberikan yang terbaik untuk anda dengan sepenuh hati
+          We always give the best for you with all my heart
         </h3>
         <ul>
           <li class="mb-2">

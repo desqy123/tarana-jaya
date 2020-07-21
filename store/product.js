@@ -4,12 +4,12 @@ export const state = () => ({
   },
   productList: [
     {
-      title: 'Lampu Tenaga Surya',
+      title: 'Solar Public Street Lighting',
       category: 'PJUTS',
       imgUrl: '/img/page/product-services/pjuts/lampu-tenaga-surya.jpg',
     },
     {
-      title: 'Tiang SNI',
+      title: 'SNI standardized pole production',
       category: 'PJUTS',
       imgUrl: '/img/page/product-services/pjuts/produksi-tiang-sni.jpg',
     },
@@ -19,7 +19,7 @@ export const state = () => ({
       imgUrl: '/img/page/product-services/medic/masker.jpg',
     },
     {
-      title: 'Thermometer',
+      title: 'Thermogun',
       category: 'Medis',
       imgUrl: '/img/page/product-services/medic/thermogun.jpg',
     },
@@ -72,7 +72,7 @@ export const state = () => ({
         '/img/page/product-services/pendidikan/Buku-Teks-Pelajaran-SD,-SMP-dan-SMA.jpg',
     },
     {
-      title: 'Alat Peraga Pendidikan',
+      title: 'Alat Peraga SD',
       category: 'Pendidikan',
       imgUrl:
         '/img/page/product-services/pendidikan/alat-peraga-pendidikan-1.jpg',
@@ -82,11 +82,11 @@ export const state = () => ({
       category: 'Pendidikan',
       imgUrl: '/img/page/product-services/pendidikan/download.jpg',
     },
-    {
-      title: 'Puzzle',
-      category: 'Pendidikan',
-      imgUrl: '/img/page/product-services/pendidikan/unnamed.jpg',
-    },
+    // {
+    //   title: 'Puzzle',
+    //   category: 'Pendidikan',
+    //   imgUrl: '/img/page/product-services/pendidikan/unnamed.jpg',
+    // },
     {
       title: 'Bola Futsal',
       category: 'Olahraga',
@@ -138,6 +138,11 @@ export const state = () => ({
       imgUrl: '/img/page/product-services/olahraga/meja-tenis.jpg',
     },
     {
+      title: 'Jersey',
+      category: 'Olahraga',
+      imgUrl: '/img/page/product-services/olahraga/jersey.jpeg',
+    },
+    {
       title: 'Laptop',
       category: 'Multimedia',
       imgUrl: '/img/page/product-services/multimedia/laptop-asus.jpg',
@@ -147,15 +152,68 @@ export const state = () => ({
       category: 'Multimedia',
       imgUrl: '/img/page/product-services/multimedia/projector.jpg',
     },
+    {
+      title: 'Internet for Villages',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/internet.jpg',
+    },
+    {
+      title: 'Wifi',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/internet.jpg',
+    },
+    {
+      title: 'Telkomsel & Indosat Tower',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/tsel-indosat-tower1.jpeg',
+    },
+    {
+      title: 'SIMDES',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/internet.jpg',
+    },
+    {
+      title: 'SIMDIK',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/internet.jpg',
+    },
+    {
+      title: 'PPOB Program',
+      category: 'Multimedia',
+      imgUrl: '/img/page/product-services/multimedia/internet.jpg',
+    },
   ],
   productCategoryList: [
     {
       id: 1,
       header_banner: '/img/header/product-services/pjuts/header-pjuts.jpeg',
-      title: 'Penerangan Jalan Umum Tenaga Surya',
+      title: 'Solar Street Public Lighting',
       name: 'PJUTS',
       show_content: true,
       show_detail: true,
+      product_content: [
+        {
+          product_content_img:
+            '/img/page/product-services/pjuts/jitsun-e-type.png',
+          product_content_tittle: 'JITSUN E-TYPE',
+          product_content_description:
+            'E series all in one solar street light design become to the revolutionary smart solar light. The whole lamp adopts humanized design, combines variety green energy (solar panel, LED light source, lithium batteries) as a kit.',
+        },
+        {
+          product_content_img:
+            '/img/page/product-services/pjuts/jitsun-m-type.png',
+          product_content_tittle: 'JITSUN M-TYPE',
+          product_content_description:
+            'The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W. Real time monitor the weather and battery, more reasonable to work.',
+        },
+        {
+          product_content_img:
+            '/img/page/product-services/pjuts/jitsun-s-type.png',
+          product_content_tittle: 'JITSUN S-TYPE',
+          product_content_description:
+            'SMART INTEGRATED DESIGN The whole lamp integrated solar panel, Lithium battery, LED and controller together. Smart 6 time-step dimmer and integrated human sensor. The latest multi-core LED Chip, make light efficiency 220lm/W.',
+        },
+      ],
       portfolios: [
         {
           title: 'Portfolio 1',
@@ -189,54 +247,111 @@ export const state = () => ({
         },
       ],
       description:
-        'Penerangan Jalan Umum Tenaga Surya (PJUTS) adalah solusi penerangan untuk jalan dan kawasan yang tidak berada dalam area jaringan PLN atau untuk efisiensi biaya penerangan. Menggunakan lampu LED hemat energi dengan listrik yang disuplai dari baterai yang sebelumnya di-charge dengan sinar matahari melalui panel surya.',
+        'Solar Public Street Lighting is a lighting solution for roads and areas that are not within the PLN grid area or for lighting cost efficiency. Using energy-efficient LED lights with electricity supplied from batteries that were previously charged with sunlight through solar panels.',
     },
     {
       id: 2,
       header_banner: '/img/header/product-services/medic/header-medic.jpeg',
-      title: 'Alat Medis',
+      title: 'Medical Supplies',
       name: 'Medis',
       show_content: false,
       show_detail: false,
-      portfolios: [],
+      product_content: [],
+      portfolios: [
+        {
+          title: 'Portfolio 1',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-1.jpg',
+        },
+        {
+          title: 'Portfolio 2',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-2.jpg',
+        },
+        {
+          title: 'Portfolio 3',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-3.jpg',
+        },
+        {
+          title: 'Portfolio 4',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-4.jpg',
+        },
+        {
+          title: 'Portfolio 5',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-5.jpg',
+        },
+        {
+          title: 'Portfolio 6',
+          portfolio_img:
+            '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-6.jpg',
+        },
+      ],
       description:
-        'Kami juga menyediakan peralatan medis untuk menunjang kebutuhan dari tenaga medis yang ada di desa2 dan kabupaten dalam menjalankan tugasnya seperti Masker, Alat Penyomprotan Fogging, Hand Sanitizer, Thermal Gun Disinfektan dll.',
+        'We also provide medical equipment to support the needs of medical personnel in villages and districts in carrying out their duties such as Masks, Fogging Composting Devices, Hand Sanitizers, Thermal Disinfectant Guns etc.',
     },
     {
       id: 3,
       header_banner:
         '/img/header/product-services/pendidikan/header-pendidikan.jpg',
-      title: 'Alat Pendidikan',
+      title: 'Education Tools',
       name: 'Pendidikan',
       show_content: false,
       show_detail: false,
+      product_content: [],
       portfolios: [],
       description:
-        'Tidak lupa kami juga menjual buku buku pelajaran untuk menunjang kebutuhan anak sekolah.',
+        'Do not forget we also sell textbooks to support the needs of school students and we also sell School kit from Elementary to High School.',
     },
     {
       id: 4,
       header_banner:
         '/img/header/product-services/olahraga/header-olahraga.jpeg',
-      title: 'Alat Olahraga',
+      title: 'Sport Equipment',
       name: 'Olahraga',
       show_content: false,
       show_detail: false,
+      product_content: [],
       portfolios: [],
       description:
-        'Kami menawarkan berbagai macam alat olahraga untuk menunjang kebutuhan masyarakat dalam berolahraga seperti Sepatu, Raket Bulu Tangkis, Bola Basket, Bola Volley, Meja Tennis dll.',
+        'We offer various kinds of sports equipment to support the needs of the community in sports such as Shoes, Badminton Racket, Basketball, Volleyball, Table Tennis etc.',
     },
     {
       id: 5,
       header_banner:
         '/img/header/product-services/multimedia/header-multimedia.jpg',
-      title: 'Alat Multimedia',
+      title: 'Multimedia Tools',
       name: 'Multimedia',
       show_content: false,
       show_detail: false,
+      product_content: [
+        {
+          product_content_img:
+            '/img/page/product-services/multimedia/internet.jpg',
+          product_content_tittle: 'SIMDIS',
+          product_content_description:
+            'The "SIMDES" application is a desktop-based computer application program that can be used by district and district offices to record population data from information on family cards, citizen deaths, births and cover letters.',
+        },
+        {
+          product_content_img:
+            '/img/page/product-services/multimedia/internet.jpg',
+          product_content_tittle: 'SIMDIK',
+          product_content_description:
+            'SIMDIK or so-called MANAGEMENT AND EDUCATION INFORMATION SYSTEM is an ICT-based school data system where all school data bases can be stored securely and can be connected through a server. Schools that can be covered with SIMDIK are kindergarten, elementary, junior high, high school and equivalent.',
+        },
+        {
+          product_content_img:
+            '/img/page/product-services/multimedia/internet.jpg',
+          product_content_tittle: 'PPOB',
+          product_content_description:
+            'PPOB is an online payment system that utilizes banking facilities. In this case, the payment can vary, starting from PLN, BPJS, PDAM, telephone, credit, internet, data packages, insurance, credit cards, multi finance, to game vouchers.',
+        },
+      ],
       portfolios: [],
       description:
-        'Kami menjual beberapa alat multimedia seperti Laptop, LCD Projector, Internet untuk di Desa desa, Wifi, Pembangunan Tower Telkomsel dan Indosat dan juga Program SIMDES, SIMDIK dan PPOB.',
+        'We also sell some multimedia tools like Laptop, LCD Projector, The Internet for Villages, Wifi, Telkomsel and Indosat Tower, and also SIMDES, SIMDIK and PPOB Program.',
     },
   ],
 })

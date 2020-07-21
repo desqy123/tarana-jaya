@@ -1,8 +1,10 @@
 <template>
   <section class="py-12 px-4">
-    <h2 class="text-5xl text-center mb-3 font-bold">Galeri Produk & Jasa</h2>
+    <h2 class="text-5xl text-center mb-3 font-bold">
+      Gallery Product & Services
+    </h2>
     <p class="max-w-2xl mb-8 mx-auto text-center text-gray-700 leading-relaxed">
-      Menjadi partner terbaik dan terpercaya bagi kemajuan usaha Anda
+      Become the best and most trusted partner for the progress of your business
     </p>
     <div class="flex max-w-lg mb-12 mx-auto text-center border-b-2">
       <div
@@ -89,9 +91,9 @@ export default {
       galleryCategory: [
         'All',
         'PJUTS',
-        'Medis',
-        'Pendidikan',
-        'Olahraga',
+        'Medic',
+        'Education',
+        'Sports',
         'Multimedia',
       ],
       selectedCategory: 0,
@@ -115,32 +117,62 @@ export default {
         {
           name: 'Sepatu Futsal',
           img: '/img/gallery/olahraga-1.jpeg',
-          category: 'Olahraga',
+          category: 'Sports',
         },
         {
           name: 'Raket Badminton',
           img: '/img/gallery/olahraga-2.jpeg',
-          category: 'Olahraga',
+          category: 'Sports',
         },
         {
           name: 'Bola Futsal',
           img: '/img/gallery/olahraga-3.jpeg',
-          category: 'Olahraga',
+          category: 'Sports',
         },
         {
           name: 'Masker Medis',
           img: '/img/gallery/medic-1.jpeg',
-          category: 'Medis',
+          category: 'Medic',
         },
         {
           name: 'Masker Medis 2',
           img: '/img/gallery/medic-2.jpeg',
-          category: 'Medis',
+          category: 'Medic',
         },
         {
           name: 'Thermometer',
           img: '/img/gallery/medic-3.jpeg',
-          category: 'Medis',
+          category: 'Medic',
+        },
+        {
+          name: 'Pendidikan 1',
+          img: '/img/gallery/pendidikan-1.jpg',
+          category: 'Education',
+        },
+        {
+          name: 'Pendidikan 2',
+          img: '/img/gallery/pendidikan-2.jpg',
+          category: 'Education',
+        },
+        {
+          name: 'Pendidikan 3',
+          img: '/img/gallery/pendidikan-3.jpg',
+          category: 'Education',
+        },
+        {
+          name: 'Multimedia 1',
+          img: '/img/gallery/multimedia-1.jpg',
+          category: 'Multimedia',
+        },
+        {
+          name: 'Multimedia 2',
+          img: '/img/gallery/multimedia-2.png',
+          category: 'Multimedia',
+        },
+        {
+          name: 'Multimedia 3',
+          img: '/img/gallery/multimedia-3.png',
+          category: 'Multimedia',
         },
       ],
     }

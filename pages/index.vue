@@ -6,7 +6,6 @@
       <OurValue />
       <ProductServices />
       <ProductGallery />
-      <Testimonial />
     </div>
   </div>
 </template>
@@ -17,7 +16,6 @@ import MiniAbout from '@/components/Home/MiniAbout.vue'
 import OurValue from '@/components/Home/OurValue.vue'
 import ProductServices from '@/components/Home/ProductServices.vue'
 import ProductGallery from '@/components/Home/ProductGallery.vue'
-import Testimonial from '@/components/Home/Testimonial.vue'
 export default {
   components: {
     Carousel,
@@ -25,7 +23,6 @@ export default {
     OurValue,
     ProductServices,
     ProductGallery,
-    Testimonial,
   },
 }
 </script>

@@ -1,10 +1,10 @@
 <template>
   <section class="py-12 px-4">
     <h2 class="text-5xl mb-2 text-center leading-tight font-bold">
-      Produk dan Jasa Kami
+      Product and Services
     </h2>
     <p class="text-center mb-12 text-gray-700">
-      Let’s open a new chapter of your paper adventure!
+      Let’s open a new chapter of your journey!
     </p>
     <div>
       <div class="flex flex-wrap items-center -mx-8">
@@ -16,18 +16,18 @@
           />
         </div>
         <div class="md:w-1/2 px-8 mb-8">
-          <span class="text-4xl font-bold"
-            >Penerangan Jalan Umum Tenaga Surya (PJUTS)</span
-          >
+          <span class="text-4xl font-bold">Solar Public Street Lighting</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            Penerangan Jalan Umum Tenaga Surya (PJUTS) adalah solusi penerangan
-            untuk jalan dan kawasan yang tidak berada dalam area jaringan PLN
-            atau untuk efisiensi biaya penerangan.
+            Solar Public Street Lighting is a lighting solution for roads and
+            areas that are not within the PLN grid area or for lighting cost
+            efficiency. Using energy-efficient LED lights with electricity
+            supplied from batteries that were previously charged with sunlight
+            through solar panels.
           </p>
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a href="alat-penerangan-jalan.html">Lihat Detail</a>
+            <nuxt-link to="alat-penerangan-jalan.html">View More</nuxt-link>
           </button>
         </div>
       </div>
@@ -41,17 +41,17 @@
         </div>
 
         <div class="md:w-1/2 px-8 md:text-right">
-          <span class="text-4xl font-bold">Alat Medis</span>
+          <span class="text-4xl font-bold">Medical Supplies</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            Kami juga menyediakan peralatan medis untuk menunjang kebutuhan dari
-            tenaga medis yang ada di desa2 dan kabupaten dalam menjalankan
-            tugasnya seperti Masker, Alat Penyomprotan Fogging, Hand Sanitizer,
-            Thermal Gun Disinfektan dll.
+            We also provide medical equipment to support the needs of medical
+            personnel in villages and districts in carrying out their duties
+            such as Masks, Fogging Composting Devices, Hand Sanitizers, Thermal
+            Disinfectant Guns etc.
           </p>
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a href="alat-medis.html">Lihat Detail</a>
+            <nuxt-link to="alat-medis.html">View More</nuxt-link>
           </button>
         </div>
       </div>
@@ -65,15 +65,15 @@
         </div>
 
         <div class="md:w-1/2 px-8">
-          <span class="text-4xl font-bold">Alat Pendidikan</span>
+          <span class="text-4xl font-bold">Education Equipment</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            Tidak lupa kami juga menjual buku buku pelajaran untuk menunjang
-            kebutuhan anak sekolah.
+            Do not forget we also sell textbooks to support the needs of school
+            children.
           </p>
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a href="alat-pendidikan.html">Lihat Detail</a>
+            <nuxt-link to="alat-pendidikan.html">View More</nuxt-link>
           </button>
         </div>
       </div>
@@ -87,16 +87,16 @@
         </div>
 
         <div class="md:w-1/2 px-8 md:text-right">
-          <span class="text-4xl font-bold">Alat Olahraga</span>
+          <span class="text-4xl font-bold">Sport Equipment</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            Kami menawarkan berbagai macam alat olahraga untuk menunjang
-            kebutuhan masyarakat dalam berolahraga seperti Sepatu, Raket Bulu
-            Tangkis, Bola Basket, Bola Volley, Meja Tennis dll.
+            We offer various kinds of sports equipment to support the needs of
+            the community in sports such as Shoes, Badminton Racket, Basketball,
+            Volleyball, Table Tennis etc.
           </p>
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a href="alat-olahraga.html">Lihat Detail</a>
+            <nuxt-link to="/alat-olahraga">View More</nuxt-link>
           </button>
         </div>
       </div>
@@ -110,16 +110,15 @@
         </div>
 
         <div class="md:w-1/2 px-8">
-          <span class="text-4xl font-bold">Alat Multimedia</span>
+          <span class="text-4xl font-bold">Multimedia Tools</span>
           <p class="text-gray-700 leading-relaxed mt-3 mb-5">
-            Kami menjual beberapa alat multimedia seperti Laptop, LCD Projector,
-            Internet untuk di Desa desa, Wifi, Pembangunan Tower Telkomsel dan
-            Indosat dan juga Program SIMDES, SIMDIK dan PPOB.
+            Do not forget we also sell textbooks to support the needs of school
+            children.
           </p>
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <a href="alat-multimedia.html">Lihat Detail</a>
+            <nuxt-link to="alat-multimedia.html">View More</nuxt-link>
           </button>
         </div>
       </div>

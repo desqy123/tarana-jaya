@@ -5,8 +5,8 @@
         Here Are Some Our Project Lists
       </h2>
       <p class="mb-8 text-gray-500 leading-relaxed">
-        Tarana Jaya Mandiri Menjadi partner terbaik dan terpercaya bagi kemajuan
-        usaha Anda
+        Tarana Jaya Mandiri Become the best and trusted partner for the progress
+        of your business
       </p>
     </div>
   </section>

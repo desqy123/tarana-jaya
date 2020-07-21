@@ -15,26 +15,25 @@
             <div class="z-10 relative w-full">
               <div class="flex flex-col md:flex-row items-center">
                 <div
-                  class="max-w-sm md:mr-auto text-center md:text-left text-white"
+                  class="max-w-sm md:mr-auto text-center md:text-left text-white flex-col justify-between"
                 >
                   <h2
                     class="text-4xl leading-tight font-heading font-bold text-white"
                   >
-                    Tarana Jaya Mandiri Membangun Dengan Sepenuh Hati
+                    {{ slider.title }}
                   </h2>
                   <p class="my-6 text-gray-300">
-                    Tarana Jaya Mandiri merupakan perusahaan Alat Kontraktor,
-                    Medis, Pendidikan, Olahraga, dan Multimedia. Telah
-                    berpengalaman dan beroperasi sejak tahun 2018. Tarana Jaya
-                    Mandiri telah menjadi partner yang terpercaya dibidangnya.
+                    {{ slider.subtitle }}
                   </p>
-                  <button
+                  <nuxt-link
+                    v-if="slider.showButton"
+                    :to="slider.link"
                     class="inline-block py-3 px-6 leading-none text-white bg-purple-700 hover:bg-purple-900 rounded shadow"
                   >
-                    <a href="contact.html">
-                      Contact Us
-                    </a>
-                  </button>
+                    <h6>
+                      {{ slider.button }}
+                    </h6>
+                  </nuxt-link>
                 </div>
                 <div class="mt-8 md:mt-0">
                   <button
@@ -63,24 +62,29 @@ export default {
       selectedSlider: 0,
       sliderList: [
         {
-          title: 'Tarana Jaya Mandiri Membangun Dengan Sepenuh Hati',
+          title: 'Tarana Jaya Mandiri Build with all your heart',
           subtitle:
-            'Tarana Jaya Mandiri merupakan perusahaan Alat Kontraktor, Medis, Pendidikan, Olahraga, dan Multimedia. Telah berpengalaman dan beroperasi sejak tahun 2018. Tarana Jaya Mandiri telah menjadi partner yang terpercaya dibidangnya.',
+            'Tarana Jaya Mandiri Oriented to the construction of public solar street lighting, SNI standardized pole production, Medical Supplies, Educational Tools, Sports Equipment and Multimedia Devices. Had been experienced and operating since 2006. Tarana Jaya Mandiri has become a trusted partner in its field.',
           button: 'Contact Us',
-          showButton: false,
+          link: '/contact',
+          showButton: true,
           img: '/img/header/home/header-home.jpeg',
         },
         {
-          title: 'Tarana Jaya Mandiri 2',
-          subtitle: 'Text 2',
-          button: 'About Us',
-          showButton: false,
+          title: 'Tarana Jaya Mandiri Build with all your heart',
+          subtitle:
+            'Tarana Jaya Mandiri Oriented to the construction of public solar street lighting, SNI standardized pole production, Medical Supplies, Educational Tools, Sports Equipment and Multimedia Devices. Had been experienced and operating since 2006. Tarana Jaya Mandiri has become a trusted partner in its field.',
+          button: 'Contact Us',
+          link: '/contact',
+          showButton: true,
           img: '/img/header/home/header-about.jpeg',
         },
         {
-          title: 'Tarana Jaya Mandiri 3',
-          subtitle: 'Text 3',
+          title: 'Tarana Jaya Mandiri Build with all your heart',
+          subtitle:
+            'Tarana Jaya Mandiri Oriented to the construction of public solar street lighting, SNI standardized pole production, Medical Supplies, Educational Tools, Sports Equipment and Multimedia Devices. Had been experienced and operating since 2006. Tarana Jaya Mandiri has become a trusted partner in its field.',
           button: 'Contact Us',
+          link: '/contact',
           showButton: true,
           img: '/img/header/home/header-contact.jpeg',
         },

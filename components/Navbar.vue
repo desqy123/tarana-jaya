@@ -112,7 +112,7 @@
           Contact Us
         </nuxt-link>
 
-        <div
+        <!-- <div
           class="relative block lg:inline-block mt-4 lg:mt-0 mr-10 text-left"
         >
           <div>
@@ -141,16 +141,6 @@
             </span>
           </div>
 
-          <!--
-            Dropdown panel, show/hide based on dropdown state.
-
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
           <div
             class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg z-50"
             :class="{ hidden: !openLanguage, block: openLanguage }"
@@ -187,7 +177,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </nav>

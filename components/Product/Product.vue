@@ -1,6 +1,6 @@
 <template>
   <section class="py-12 px-4">
-    <h2 class="text-4xl text-center mb-8 font-semibold">Produk Kami</h2>
+    <h2 class="text-4xl text-center mb-8 font-semibold">Our Product</h2>
     <div class="flex flex-wrap -mx-4">
       <div
         v-for="(item, key) in items"
