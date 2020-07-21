@@ -22,21 +22,21 @@
               class="inline-block w-8 h-8 pr-2"
               src="placeholders/icons/mobile.svg"
               alt=""
-            /><span><strong>No. Telp Kantor 1 : </strong>081384593862</span>
+            /><span><strong>Phone Office 1 : </strong>081384593862</span>
           </li>
           <li class="mb-2">
             <img
               class="inline-block w-8 h-8 pr-2"
               src="placeholders/icons/mobile.svg"
               alt=""
-            /><span><strong>No. Telp Kantor 2 : </strong>081388161716</span>
+            /><span><strong>Phone Office 2 : </strong>081388161716</span>
           </li>
           <li class="mb-2">
             <img
               class="inline-block w-8 h-8 pr-2"
               src="placeholders/icons/mobile.svg"
               alt=""
-            /><span><strong>No. Telp Kantor 3 : </strong>085243444333</span>
+            /><span><strong>Phone Office 3 : </strong>085243444333</span>
           </li>
           <li class="mb-2">
             <img

@@ -40,31 +40,26 @@
               class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"
             >
               <svg
-                class="h-6 w-6 text-red-600"
-                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                fill="green"
+                width="24px"
+                height="24px"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                />
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
               </svg>
             </div>
-            <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-              <h3
+            <div class="mx-auto text-center sm:mt-0 sm:ml-4 sm:text-left">
+              <h2
                 id="modal-headline"
                 class="text-lg leading-6 font-medium text-gray-900"
               >
-                Deactivate account
-              </h3>
+                Data Successfully Sent!
+              </h2>
               <div class="mt-2">
                 <p class="text-sm leading-5 text-gray-500">
-                  Are you sure you want to deactivate your account? All of your
-                  data will be permanently removed. This action cannot be
-                  undone.
+                  Our team will contact you soon. Thank you :)
                 </p>
               </div>
             </div>

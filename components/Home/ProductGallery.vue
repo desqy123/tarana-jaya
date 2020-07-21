@@ -101,12 +101,12 @@ export default {
       galleryList: [
         {
           name: 'Tiang SNI',
-          img: '/img/gallery/pjuts-1.jpeg',
+          img: '/img/gallery/pjuts-1.jpg',
           category: 'PJUTS',
         },
         {
           name: 'Lampu Tenaga Surya',
-          img: '/img/gallery/pjuts-2.jpeg',
+          img: '/img/gallery/pjuts-2.jpg',
           category: 'PJUTS',
         },
         {
@@ -116,17 +116,17 @@ export default {
         },
         {
           name: 'Sepatu Futsal',
-          img: '/img/gallery/olahraga-1.jpeg',
+          img: '/img/gallery/olahraga-1.jpg',
           category: 'Sports',
         },
         {
           name: 'Raket Badminton',
-          img: '/img/gallery/olahraga-2.jpeg',
+          img: '/img/gallery/olahraga-2.jpg',
           category: 'Sports',
         },
         {
           name: 'Bola Futsal',
-          img: '/img/gallery/olahraga-3.jpeg',
+          img: '/img/gallery/olahraga-3.jpg',
           category: 'Sports',
         },
         {
@@ -171,7 +171,7 @@ export default {
         },
         {
           name: 'Multimedia 3',
-          img: '/img/gallery/multimedia-3.png',
+          img: '/img/gallery/multimedia-3.jpg',
           category: 'Multimedia',
         },
       ],
