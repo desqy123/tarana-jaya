@@ -7,7 +7,7 @@
       Let’s open a new chapter of your journey!
     </p>
     <div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div class="flex flex-wrap flex-row items-center lg:-mx-8 mx-0">
         <div class="md:w-1/2 px-8 mb-8">
           <img
             class="w-4/5 mx-auto"
@@ -27,11 +27,13 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="alat-penerangan-jalan.html">View More</nuxt-link>
+            <nuxt-link :to="{ name: 'product-slug', params: { slug: 'PJUTS' } }"
+              >View More</nuxt-link
+            >
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div class="flex flex-wrap flex-row items-center lg:-mx-8 mx-0">
         <div class="md:w-1/2 px-8 mb-8 md:order-1">
           <img
             class="w-4/5 mx-auto"
@@ -51,11 +53,13 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="alat-medis.html">View More</nuxt-link>
+            <nuxt-link :to="{ name: 'product-slug', params: { slug: 'Medis' } }"
+              >View More</nuxt-link
+            >
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div class="flex flex-wrap flex-row items-center lg:-mx-8 mx-0">
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
@@ -73,11 +77,14 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="alat-pendidikan.html">View More</nuxt-link>
+            <nuxt-link
+              :to="{ name: 'product-slug', params: { slug: 'Pendidikan' } }"
+              >View More</nuxt-link
+            >
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div class="flex flex-wrap flex-row items-center lg:-mx-8 mx-0">
         <div class="md:w-1/2 px-8 mb-8 md:order-1">
           <img
             class="w-4/5 mx-auto"
@@ -96,11 +103,14 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="/alat-olahraga">View More</nuxt-link>
+            <nuxt-link
+              :to="{ name: 'product-slug', params: { slug: 'Olahraga' } }"
+              >View More</nuxt-link
+            >
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap items-center -mx-8">
+      <div class="flex flex-wrap flex-row items-center lg:-mx-8 mx-0">
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
@@ -118,10 +128,22 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="alat-multimedia.html">View More</nuxt-link>
+            <nuxt-link
+              :to="{ name: 'product-slug', params: { slug: 'Multimedia' } }"
+              >View More</nuxt-link
+            >
           </button>
         </div>
       </div>
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      productServiceList: [],
+    }
+  },
+}
+</script>

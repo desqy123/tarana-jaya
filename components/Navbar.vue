@@ -18,7 +18,7 @@
       </button>
     </div>
     <div
-      class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto"
+      class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto px-2"
     >
       <div class="lg:ml-auto">
         <nuxt-link

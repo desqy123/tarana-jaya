@@ -2,9 +2,9 @@
   <section class="py-12 px-4 text-center">
     <h2 class="text-5xl mb-8 font-bold">Our Value</h2>
     <div
-      class="flex flex-wrap items-center justify-center lg:-mx-8 -mx-0 mb-12"
+      class="flex flex-wrap flex-row items-center justify-center lg:-mx-8 mx-0 mb-12"
     >
-      <div class="lg:w-1/3 px-8 mb-8 lg:mb-0">
+      <div class="lg:w-1/3 md:w-full px-8 mb-8 lg:mb-0">
         <!-- <img class="mx-auto" src="placeholders/icons/terpercaya.svg" alt="" /> -->
         <div class="mx-auto">
           <svg
@@ -45,7 +45,7 @@
           consumers with the products and resources we have.
         </p>
       </div>
-      <div class="lg:w-1/3 px-8 mb-8 lg:mb-0">
+      <div class="lg:w-1/3 md:w-full px-8 mb-8 lg:mb-0">
         <!-- <img
           class="mx-auto"
           src="placeholders/icons/team-berbakat.svg"
@@ -72,7 +72,7 @@
           have tested the quality of the processed.
         </p>
       </div>
-      <div class="lg:w-1/3 px-8 mb-8 lg:mb-0">
+      <div class="lg:w-1/3 md:w-full px-8 mb-8 lg:mb-0">
         <!-- <img
           class="mx-auto"
           src="placeholders/icons/berpengalaman.svg"
