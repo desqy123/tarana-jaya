@@ -15,131 +15,131 @@ export const state = () => ({
     },
     {
       title: 'Masker',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/masker.jpg',
     },
     {
       title: 'Thermogun',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/thermogun.jpg',
     },
     {
       title: 'Hand Sanitizer',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/hand-sanitizer.jpg',
     },
     {
       title: 'Disinfektan',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/disinfektan.jpg',
     },
     {
       title: 'Alat Rapid Test',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/alat-rapid-test.jpg',
     },
     {
       title: 'Covid Kit Test',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/covid-kit-test.jpg',
     },
     {
       title: 'Meja Wastafel',
-      category: 'Medis',
+      category: 'Medic',
       imgUrl: '/img/page/product-services/medic/meja-wastafel.jpg',
     },
     {
       title: 'Alat Lab Biologi SMA',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl:
         '/img/page/product-services/pendidikan/Gambar-Alat-Lab-Biologi-SMA.jpg',
     },
     {
       title: 'Alat Lab Fisika SMK',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl:
         '/img/page/product-services/pendidikan/Gambar-Alat-Lab-Fisika-SMK.jpg',
     },
     {
       title: 'Alat IPA SMP',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl: '/img/page/product-services/pendidikan/al-ipa-smp.jpg',
     },
     {
       title: 'Buku Teks Pelajaran SD, SMP dan SMA',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl:
         '/img/page/product-services/pendidikan/Buku-Teks-Pelajaran-SD,-SMP-dan-SMA.jpg',
     },
     {
       title: 'Alat Peraga SD',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl:
         '/img/page/product-services/pendidikan/alat-peraga-pendidikan-1.jpg',
     },
     {
       title: 'Alat Bantu Belajar Membaca',
-      category: 'Pendidikan',
+      category: 'Education',
       imgUrl: '/img/page/product-services/pendidikan/download.jpg',
     },
     // {
     //   title: 'Puzzle',
-    //   category: 'Pendidikan',
+    //   category: 'Education',
     //   imgUrl: '/img/page/product-services/pendidikan/unnamed.jpg',
     // },
     {
       title: 'Bola Futsal',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/bola-futsal.jpg',
     },
     {
       title: 'Bola Pingpong',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/bola-pingpong.JPG',
     },
     {
       title: 'Bola Basket',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/bola-basket.jpg',
     },
     {
       title: 'Bola Voli',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/bola-voli.jpg',
     },
     {
       title: 'Raket Pingpong',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/raket-pingpong.JPG',
     },
     {
       title: 'Raket Badminton',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/raket-badminton.jpg',
     },
     {
       title: 'Sepatu Futsal',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/sepatu-futsal.jpg',
     },
     {
       title: 'Matras',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/matras.jpg',
     },
     {
       title: 'Rompi Olahraga',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/rompi-olahraga.jpg',
     },
     {
       title: 'Meja Tenis',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/meja-tenis.jpg',
     },
     {
       title: 'Jersey',
-      category: 'Olahraga',
+      category: 'Sport',
       imgUrl: '/img/page/product-services/olahraga/jersey.jpeg',
     },
     {
@@ -268,25 +268,25 @@ export const state = () => ({
       id: 2,
       header_banner: '/img/header/product-services/medic/header-medic.jpeg',
       title: 'Medical Supplies',
-      name: 'Medis',
+      name: 'Medic',
       show_content: false,
       show_detail: false,
       product_content: [],
       portfolios: [
         {
-          title: 'Medis 1',
+          title: 'Medic 1',
           type: 'image',
           portfolio_img:
             '/img/page/product-services/medic/portfolio/disinfektan.jpeg',
         },
         {
-          title: 'Medis 2',
+          title: 'Medic 2',
           type: 'image',
           portfolio_img:
             '/img/page/product-services/medic/portfolio/masker.jpeg',
         },
         {
-          title: 'Medis 5',
+          title: 'Medic 5',
           type: 'video',
           portfolio_img:
             '/img/page/product-services/medic/portfolio/medis-5.mp4',
@@ -318,7 +318,7 @@ export const state = () => ({
       header_banner:
         '/img/header/product-services/pendidikan/header-pendidikan.jpg',
       title: 'Education Tools',
-      name: 'Pendidikan',
+      name: 'Education',
       show_content: false,
       show_detail: false,
       product_content: [],
@@ -331,7 +331,7 @@ export const state = () => ({
       header_banner:
         '/img/header/product-services/olahraga/header-olahraga.jpeg',
       title: 'Sport Equipment',
-      name: 'Olahraga',
+      name: 'Sport',
       show_content: false,
       show_detail: false,
       product_content: [],
@@ -351,7 +351,7 @@ export const state = () => ({
         {
           product_content_img:
             '/img/page/product-services/multimedia/internet.jpg',
-          product_content_title: 'SIMDIS',
+          product_content_title: 'SIMDES',
           product_content_description:
             'The "SIMDES" application is a desktop-based computer application program that can be used by district and district offices to record population data from information on family cards, citizen deaths, births and cover letters.',
           product_content_link: '',

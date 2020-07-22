@@ -2,7 +2,12 @@
   <section class="py-8 px-4 mt-10">
     <div class="flex flex-wrap justify-center lg:justify-between -mx-2">
       <div class="lg:w-2/5 px-2 flex lg:pr-16 mb-6 lg:mb-0">
-        <img class="w-full h-auto" src="img/logo-tjm.jpeg" alt="" />
+        <img
+          src="img/logo-tjm.jpeg"
+          alt=""
+          style="height: 150px;"
+          class="mx-auto"
+        />
       </div>
       <div class="lg:w-3/5 mx-auto">
         <h2 class="text-4xl font-bold">About Us</h2>

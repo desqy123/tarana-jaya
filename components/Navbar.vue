@@ -194,13 +194,7 @@ export default {
   data() {
     return {
       openProduct: false,
-      productCategory: [
-        'PJUTS',
-        'Medis',
-        'Pendidikan',
-        'Olahraga',
-        'Multimedia',
-      ],
+      productCategory: ['PJUTS', 'Medic', 'Education', 'Sports', 'Multimedia'],
 
       openLanguage: false,
       languagePicker: [

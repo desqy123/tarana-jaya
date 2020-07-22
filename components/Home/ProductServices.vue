@@ -63,7 +63,7 @@
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
-            src="img/page/home/home-kontraktor.jpg"
+            src="img/page/home/home-pendidikan.jpg"
             alt=""
           />
         </div>
@@ -114,7 +114,7 @@
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
-            src="img/page/home/home-kontraktor.jpg"
+            src="img/page/home/home-multimedia.jpg"
             alt=""
           />
         </div>
