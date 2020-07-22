@@ -4,7 +4,7 @@
       <transition name="fade" :duration="3000">
         <section
           v-show="key === selectedSlider"
-          class="bg-cover lg:bg-center"
+          class="bg-cover lg:bg-center mt-2 lg:mt-10"
           :style="{ 'background-image': `url(${slider.img})` }"
         >
           <div

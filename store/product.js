@@ -226,31 +226,37 @@ export const state = () => ({
       portfolios: [
         {
           title: 'Portfolio 1',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-1.jpg',
         },
         {
           title: 'Portfolio 2',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-2.jpg',
         },
         {
           title: 'Portfolio 3',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-3.jpg',
         },
         {
           title: 'Portfolio 4',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-4.jpg',
         },
         {
           title: 'Portfolio 5',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-5.jpg',
         },
         {
           title: 'Portfolio 6',
+          type: 'image',
           portfolio_img:
             '/img/page/product-services/pjuts/portfolio/portfolio-pjuts-6.jpg',
         },
@@ -269,29 +275,39 @@ export const state = () => ({
       portfolios: [
         {
           title: 'Medis 1',
+          type: 'image',
           portfolio_img:
-            '/img/page/product-services/pjuts/medic/disinfektan.jpeg',
+            '/img/page/product-services/medic/portfolio/disinfektan.jpeg',
         },
         {
           title: 'Medis 2',
-          portfolio_img: '/img/page/product-services/pjuts/medic/masker.jpeg',
-        },
-        {
-          title: 'Medis 3',
+          type: 'image',
           portfolio_img:
-            '/img/page/product-services/pjuts/medic/thermogun.jpeg',
-        },
-        {
-          title: 'Medis 4',
-          portfolio_img: '/img/page/product-services/pjuts/medic/medis-4.jpeg',
+            '/img/page/product-services/medic/portfolio/masker.jpeg',
         },
         {
           title: 'Medis 5',
-          portfolio_img: '/img/page/product-services/pjuts/medic/medis-5.mp4',
+          type: 'video',
+          portfolio_img:
+            '/img/page/product-services/medic/portfolio/medis-5.mp4',
         },
         {
           title: 'Medis 6',
-          portfolio_img: '/img/page/product-services/pjuts/medic/medis-6.mp4',
+          type: 'video',
+          portfolio_img:
+            '/img/page/product-services/medic/portfolio/medis-6.mp4',
+        },
+        {
+          title: 'Medis 3',
+          type: 'image',
+          portfolio_img:
+            '/img/page/product-services/medic/portfolio/thermogun.jpeg',
+        },
+        {
+          title: 'Medis 4',
+          type: 'image',
+          portfolio_img:
+            '/img/page/product-services/medic/portfolio/medis-4.jpeg',
         },
       ],
       description:
