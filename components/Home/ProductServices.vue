@@ -53,7 +53,7 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link :to="{ name: 'product-slug', params: { slug: 'Medis' } }"
+            <nuxt-link :to="{ name: 'product-slug', params: { slug: 'Medic' } }"
               >View More</nuxt-link
             >
           </button>
@@ -63,7 +63,7 @@
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
-            src="img/page/home/home-kontraktor.jpg"
+            src="img/page/home/home-pendidikan.jpg"
             alt=""
           />
         </div>
@@ -78,7 +78,7 @@
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
             <nuxt-link
-              :to="{ name: 'product-slug', params: { slug: 'Pendidikan' } }"
+              :to="{ name: 'product-slug', params: { slug: 'Education' } }"
               >View More</nuxt-link
             >
           </button>
@@ -103,8 +103,7 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded"
           >
-            <nuxt-link
-              :to="{ name: 'product-slug', params: { slug: 'Olahraga' } }"
+            <nuxt-link :to="{ name: 'product-slug', params: { slug: 'Sport' } }"
               >View More</nuxt-link
             >
           </button>
@@ -114,7 +113,7 @@
         <div class="md:w-1/2 px-8 mb-8 order-none">
           <img
             class="w-4/5 mx-auto"
-            src="img/page/home/home-kontraktor.jpg"
+            src="img/page/home/home-multimedia.jpg"
             alt=""
           />
         </div>

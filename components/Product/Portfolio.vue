@@ -4,13 +4,25 @@
     <p class="max-w-2xl mb-8 mx-auto text-center text-gray-800 leading-relaxed">
       We provide the best for you with all my heart.
     </p>
-    <div
-      v-for="(portfolio, key) in portfolios"
-      :key="key"
-      class="flex flex-wrap -mx-4 -mb-8"
-    >
-      <div class="md:w-1/3 px-4 mb-8">
-        <img class="rounded shadow-md" :src="portfolio.portfolio_img" alt="" />
+    <div class="flex flex-wrap -mx-4 -mb-8">
+      <div
+        v-for="(portfolio, key) in portfolios"
+        :key="key"
+        class="md:w-1/3 px-4 mb-8"
+      >
+        <video
+          v-if="portfolio.type == 'video'"
+          controls
+          class="rounded shadow-md"
+        >
+          <source :src="portfolio.portfolio_img" type="video/mp4" />
+        </video>
+        <img
+          v-else=""
+          class="rounded shadow-md"
+          :src="portfolio.portfolio_img"
+          alt=""
+        />
       </div>
 
       <!-- <div class="md:w-1/3 px-4 mb-8">

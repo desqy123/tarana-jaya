@@ -12,7 +12,10 @@
       />
       <ProductDetailDownload v-if="productDetail.show_detail" />
       <Product :items="productDetail.items" />
-      <Portfolio v-if="productDetail.portfolios.length > 0" />
+      <Portfolio
+        v-if="productDetail.portfolios.length > 0"
+        :portfolios="productDetail.portfolios"
+      />
     </div>
     <ProductContact />
   </div>

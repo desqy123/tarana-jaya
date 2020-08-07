@@ -6,13 +6,15 @@
     <p class="max-w-2xl mb-8 mx-auto text-center text-gray-700 leading-relaxed">
       Become the best and most trusted partner for the progress of your business
     </p>
-    <div class="flex max-w-lg mb-12 mx-auto text-center border-b-2">
+    <div
+      class="flex max-w-lg mb-12 mx-auto text-center border-b-2 overflow-x-scroll lg:overflow-hidden"
+    >
       <div
         v-for="(galleryCat, key) in galleryCategory"
         :key="key"
+        class="w-64 ml-5 pb-2"
         :class="{
-          'w-1/3 pb-2 border-b-4 border-indigo-500': key === selectedCategory,
-          'w-1/3 pb-2': key !== selectedCategory,
+          'border-b-4 border-indigo-500 ': key === selectedCategory,
         }"
       >
         <button class="focus:outline-none" @click="changeSelectedCategory(key)">
