@@ -34,7 +34,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: ['~/plugins/i18n.js'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -66,4 +66,14 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  /**
+   * Server Middleware
+   */
+  // serverMiddleware: ['~/api/index.js'],
+  /**
+   * router
+   */
+  router: {
+    middleware: 'i18n',
+  },
 }
