@@ -1,7 +1,7 @@
 <template>
   <section
     class="bg-cover mx-auto"
-    style="background-image: url('img/page/home/bg/section1.jpg');"
+    style="background-image: url('/img/page/home/bg/section1.jpg');"
   >
     <div class="py-12 px-4 mb-6">
       <div
@@ -18,16 +18,10 @@
           <h2
             class="text-5xl mb-6 leading-tight font-heading font-bold heading-custom"
           >
-            Solar Street Public Lighting, Medical, Education, Sports, Multimedia
+            {{ $t('home.about.title') }}
           </h2>
           <p class="mb-8 text-gray-800 leading-relaxed">
-            Tarana Jaya Mandiri was established on 2006 in Ambon City,
-            Indonesia. Oriented to the construction of public solar street
-            lighting, SNI standardized pole production, Medical devices such as
-            masks, Educational tools such as school books, multimedia devices
-            such as computers, and sports equipment such as badminton rackets,
-            soccer shirts etc. Until now, we have made almost all information in
-            villages and regencies in eastern Indonesia
+            {{ $t('home.about.description') }}
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <section class="py-12 px-4 text-center">
-    <h2 class="text-5xl mb-8 font-bold">Our Value</h2>
+    <h2 class="text-5xl mb-8 font-bold">{{ $t('home.our_value.title') }}</h2>
     <div
       class="flex flex-wrap flex-row items-center justify-center lg:-mx-8 mx-0 mb-12"
     >
@@ -38,11 +38,11 @@
             </g>
           </svg>
         </div>
-        <h3 class="text-2xl mt-6 mb-3 font-bold">Trusted</h3>
+        <h3 class="text-2xl mt-6 mb-3 font-bold">
+          {{ $t('home.our_value.trusted.title') }}
+        </h3>
         <p class="text-gray-600 leading-relaxed">
-          We are trusted by the Village and Regency Governments to meet the
-          demands of clients and will always be available to meet the demands of
-          consumers with the products and resources we have.
+          {{ $t('home.our_value.trusted.description') }}
         </p>
       </div>
       <div class="lg:w-1/3 md:w-full px-8 mb-8 lg:mb-0">
@@ -66,10 +66,11 @@
             />
           </svg>
         </div>
-        <h3 class="text-2xl mt-6 mb-3 font-bold">Talented Team</h3>
+        <h3 class="text-2xl mt-6 mb-3 font-bold">
+          {{ $t('home.our_value.talented.title') }}
+        </h3>
         <p class="text-gray-600 leading-relaxed">
-          Assisted by several workers who are experienced in their fields and
-          have tested the quality of the processed.
+          {{ $t('home.our_value.talented.description') }}
         </p>
       </div>
       <div class="lg:w-1/3 md:w-full px-8 mb-8 lg:mb-0">
@@ -94,12 +95,11 @@
             />
           </svg>
         </div>
-        <h3 class="text-2xl mt-6 mb-3 font-bold">Experienced</h3>
+        <h3 class="text-2xl mt-6 mb-3 font-bold">
+          {{ $t('home.our_value.experienced.title') }}
+        </h3>
         <p class="text-gray-600 leading-relaxed">
-          We have experienced and succeeded in distributing environmentally
-          friendly technologies and diverse products in urban, regency and
-          village villages that exist in almost all of Indonesia, especially in
-          eastern Indonesia.
+          {{ $t('home.our_value.experienced.description') }}
         </p>
       </div>
     </div>

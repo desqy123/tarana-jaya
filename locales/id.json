@@ -1,5 +1,95 @@
 {
+  "links":{
+    "home":"Home",
+    "about":"Tentang Kami",
+    "product":"Produk & Servis",
+    "project":"Project Kami",
+    "contact":"Hubungi Kami"
+  },
   "home":{
-    
+    "about":{
+      "title":"PJUTS, Alat Medis, Edukasi, Olahraga, Multimedia",
+      "description":"Tarana Jaya Mandiri didirikan pada tahun 2006 di Kota Ambon, Indonesia. Berorientasi pada konstruksi penerangan jalan umum tenaga surya, produksi tiang berstandard SNI, Alat medis seperti masker, alat Pendidikan seperti buku sekolah, alat multimedia seperti computer, dan alat olahraga seperti raket bulu tangkis, baju bola dll.Hingga saat ini, kami telah menerangi hampir semua penerangan di desa desa dan kabupaten diwilayah Indonesia bagian timur."
+    },
+    "our_value":{
+      "title":"Our Value",
+      "trusted":{
+        "title":"Terpercaya",
+        "description":"Kami sangat dipercaya Pemerintah Desa dan Kabupaten Kota untuk memenuhi permintaan klien dan akan selalu siap sedia dalam memenuhi permintaan konsumen dengan produk dan sumber daya yang kami miliki."
+      },
+      "talented":{
+        "title":"Tim Berbakat",
+        "description":"Dibantu oleh beberapa tenaga yang berpengalaman dibidangnya dan sudah teruji kualitas pengerjaannya. "
+      },
+      "experienced":{
+        "title":"Berpengalaman",
+        "description":"Kami telah berpengalaman dan berhasil dalam mendistribusikan teknologi ramah lingkungan dan produk produk yang beraneka ragam pada Perkotaan, Kabupaten dan Desa desa yang ada hampir di seluruh Indonesia terutama bagian Timur Indonesia."
+      }
+    },
+    "product":{
+      "title":"Product and Services",
+      "description":"Let’s open a new chapter of your journey!"
+    },
+    "product_services":{
+      "title":"Produk dan Servis",
+      "description":"Let’s open a new chapter of your journey!",
+      "pjuts":{
+        "title":"PJUTS",
+        "description":"Penerangan Jalan Umum Tenaga Surya (PJUTS) adalah solusi penerangan untuk jalan dan kawasan yang tidak berada dalam area jaringan PLN atau untuk efisiensi biaya penerangan. Menggunakan lampu LED hemat energi dengan listrik yang disuplai dari baterai yang sebelumnya di-charge dengan sinar matahari melalui panel surya."
+      },
+      "medical":{
+        "title":"Alat Medis",
+        "description":"Kami juga menyediakan peralatan medis untuk menunjang kebutuhan dari tenaga medis yang ada di desa2 dan kabupaten dalam menjalankan tugasnya seperti Masker, Alat Penyomprotan Fogging, Hand Sanitizer, Thermal Gun Disinfektan dll."
+      },
+      "education":{
+        "title":"Alat Pendidikan",
+        "description":"Tidak lupa kami juga menjual buku buku pelajaran untuk menunjang kebutuhan anak sekolah dan berbagai alat peraga Pendidikan dari mulai jenjang SD sampai dengan SMA."
+      },
+      "sport":{
+        "title":"Alat Olahraga",
+        "description":"Kami menawarkan berbagai macam alat olahraga untuk menunjang kebutuhan masyarakat dalam berolahraga seperti Sepatu, Raket Bulu Tangkis, Bola Basket, Bola Volley, Meja Tennis dll."
+      },
+      "multimedia":{
+        "title":"Alat Multimedia",
+        "description":"Kami menjual beberapa alat multimedia seperti Laptop, LCD Projector, Internet untuk di Desa desa, Wifi, Pembangunan Tower Telkomsel dan Indosat dan juga Program SIMDES, SIMDIK dan PPOB"
+      }
+    }
+  },
+  "about":{
+    "title":"Tentang Kami",
+    "description":"Tarana Jaya Mandiri didirikan pada tahun 2006 di Kota Ambon, Indonesia. Berorientasi pada konstruksi penerangan jalan umum tenaga surya, produksi tiang berstandard SNI, Alat medis seperti masker, alat Pendidikan seperti buku sekolah, alat multimedia seperti computer, dan alat olahraga seperti raket bulu tangkis, baju bola dll. Hingga saat ini, kami telah menerangi hampir semua penerangan di desa desa dan kabupaten diwilayah Indonesia bagian timur.",
+    "vision":{
+      "title":"Visi Kami",
+      "description":"Kami akan memberikan kepuasan kepada pelanggan dengan memberikan pelayanan terbaik dan produk produk terbaik didalam Penerangan Lampu Jalan Raya, Alat Medis, Alat Olahraga, Alat Multimedia dan Alat Pendidikan sebagai perusahaan berstandard kelas dunia."
+    },
+    "mission":{
+      "title":"Misi Kami",
+      "list":[
+        {
+          "title":"01",
+          "description":"Untuk memenuhi kebutuhan listrik sebagai fungsi penerangan desa yang belum terjangkau oleh PLN, jalan desa atau tempat umum"
+        },
+        {
+          "title":"02",
+          "description":"Memenuhi penerangan akibat bencana alam."
+        },
+        {
+          "title":"03",
+          "description":"Amanat Undang – Undang dalam rangka Keadilan Sosial Bagi Seluruh Rakyat Indonesia"
+        },
+        {
+          "title":"04",
+          "description":"Mengurangi tindak kejahatan asusila, kriminalitas, beredarnya narkoba di desa, dan meningkatkan keamanan desa di malam hari PLTS sebagai solusi"
+        }
+      ]
+    }
+  },
+  "contact":{
+    "title":"Hubungi Kami",
+    "description":"Kami selalu memberikan yang terbaik dengan seluruh hati kami."
+  },
+  "project":{
+    "title":"Daftar Project Kami",
+    "description":"Tarana Jaya Mandiri Menjadi yang terbaik dan terpercaya untuk membantu bisnis andas"
   }
 }

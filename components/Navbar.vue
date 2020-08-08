@@ -28,15 +28,15 @@
         <div class="lg:ml-auto">
           <nuxt-link
             class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
-            to="/"
+            :to="$i18n.path('')"
           >
-            Home
+            {{ $t('links.home') }}
           </nuxt-link>
           <nuxt-link
             class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
-            to="/about"
+            :to="$i18n.path('about')"
           >
-            About
+            {{ $t('links.about') }}
           </nuxt-link>
           <div
             class="block relative lg:inline-block mt-4 lg:mt-0 mr-10 text-left"
@@ -51,7 +51,7 @@
                   aria-expanded="true"
                   @click="openProduct = !openProduct"
                 >
-                  Product & Services
+                  {{ $t('links.product') }}
                   <svg
                     class="-mr-1 ml-2 h-5 w-5"
                     viewBox="0 0 20 20"
@@ -106,15 +106,29 @@
           </div>
           <nuxt-link
             class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
-            to="/project-list"
+            :to="$i18n.path('project-list')"
           >
-            Project List
+            {{ $t('links.project') }}
           </nuxt-link>
           <nuxt-link
             class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
-            to="/contact"
+            :to="$i18n.path('contact')"
           >
-            Contact Us
+            {{ $t('links.contact') }}
+          </nuxt-link>
+          <nuxt-link
+            v-if="$i18n.locale === 'en'"
+            class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
+            :to="`/id` + $route.fullPath"
+          >
+            {{ $t('links.indonesia') }}
+          </nuxt-link>
+          <nuxt-link
+            v-else
+            class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700 font-bold"
+            :to="$route.fullPath.replace(/^\/[^\/]+/, '')"
+          >
+            {{ $t('links.english') }}
           </nuxt-link>
 
           <!-- <div

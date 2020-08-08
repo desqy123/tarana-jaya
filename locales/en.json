@@ -1,5 +1,97 @@
 {
+  "links":{
+    "home":"Home",
+    "about":"About",
+    "product":"Product & Services",
+    "project":"Project List",
+    "contact":"Contact Us",
+    "english":"English",
+    "indonesia":"Indonesia"
+  },
   "home":{
-    
+    "about":{
+      "title":"Solar Street Public Lighting, Medical, Education, Sports, Multimedia",
+      "description":"Tarana Jaya Mandiri was established on 2006 in Ambon City, Indonesia. Oriented to the construction of public solar street lighting, SNI standardized pole production, Medical devices such as masks, Educational tools such as school books, multimedia devices such as computers, and sports equipment such as badminton rackets, soccer shirts etc. Until now, we have made almost all information in villages and regencies in eastern Indonesia"
+    },
+    "our_value":{
+      "title":"Our Value",
+      "trusted":{
+        "title":"Trusted",
+        "description":"We are trusted by the Village and Regency Governments to meet the demands of clients and will always be available to meet the demands of consumers with the products and resources we have."
+      },
+      "talented":{
+        "title":"Talented Team",
+        "description":"Assisted by several workers who are experienced in their fields and have tested the quality of the processed."
+      },
+      "experienced":{
+        "title":"Experienced",
+        "description":"We have experienced and succeeded in distributing environmentally friendly technologies and diverse products in urban, regency and village villages that exist in almost all of Indonesia, especially in eastern Indonesia."
+      }
+    },
+    "product":{
+      "title":"Product and Services",
+      "description":"Let’s open a new chapter of your journey!"
+    },
+    "product_services":{
+      "title":"Product and Services",
+      "description":"Let’s open a new chapter of your journey!",
+      "pjuts":{
+        "title":"Solar Public Street Lighting",
+        "description":"Solar Public Street Lighting is a lighting solution for roads and areas that are not within the PLN grid area or for lighting cost efficiency. Using energy-efficient LED lights with electricity supplied from batteries that were previously charged with sunlight through solar panels."
+      },
+      "medical":{
+        "title":"Medical Supplies",
+        "description":"We also provide medical equipment to support the needs of medical personnel in villages and districts in carrying out their duties such as Masks, Fogging Composting Devices, Hand Sanitizers, Thermal Disinfectant Guns etc."
+      },
+      "education":{
+        "title":"Education Equiment",
+        "description":"Do not forget we also sell textbooks to support the needs of school students and we also sell School kit from Elementary to High School."
+      },
+      "sport":{
+        "title":"Sport Equipment",
+        "description":"We offer various kinds of sports equipment to support the needs of the community in sports such as Shoes, Badminton Racket, Basketball, Volleyball, Table Tennis etc."
+      },
+      "multimedia":{
+        "title":"Multimedia Tools",
+        "description":"We also sell some multimedia tools like Laptop, LCD Projector, The Internet for Villages, Wifi, Telkomsel and Indosat Tower, and also SIMDES, SIMDIK and PPOB Program."
+      }
+    }
+  },
+  "about":{
+    "title":"About Us",
+    "description":"Tarana Jaya Mandiri was established on 2006 in Ambon City, Indonesia. Oriented to the construction of public solar street lighting, SNI standardized pole production, Medical devices such as masks, Educational tools such as school books, multimedia devices such as computers, and sports equipment such as badminton rackets, soccer shirts etc. Until now, we have made almost all information in villages and regencies in eastern Indonesia",
+    "vision":{
+      "title":"Our Vision",
+      "description":"We will give satisfaction to customers by providing the best service and the best products in the Lighting of Highway Lights, Medical Devices, Sports Equipment, Multimedia Devices and Educational Tools as a world class standard company."
+    },
+    "mission":{
+      "title":"Our Mission",
+      "list":[
+        {
+          "title":"01",
+          "description":"To fulfill the electricity needs as a function of village lighting that has not been reached by PLN, village roads or public places"
+        },
+        {
+          "title":"02",
+          "description":"Fulfill lighting due to natural disasters."
+        },
+        {
+          "title":"03",
+          "description":"The mandate of the law in the context of Social Justice for All Indonesian People"
+        },
+        {
+          "title":"04",
+          "description":"Reducing the crime of immorality, crime, the circulation of drugs in the village, and increasing the security of the village at night PLTS as a solution"
+        }
+      ]
+    }
+  },
+  "contact":{
+    "title":"Our Contact",
+    "description":"We always give the best for you with all my heart"
+  },
+  "project":{
+    "title":"Here Are Some Our Project Lists",
+    "description":"Tarana Jaya Mandiri Become the best and trusted partner for the progress of your business"
   }
 }
